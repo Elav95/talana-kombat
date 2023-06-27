@@ -1,0 +1,3 @@
+fastapi                 # Framework web
+uvicorn                 # Servidor
+docker                  # Container
