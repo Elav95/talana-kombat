@@ -6,7 +6,7 @@ import json
 
 app = FastAPI(root_path="")
 
-@app.get("/")
+@app.get("/", include_in_schema=False)
 def index():
     response = RedirectResponse(url="" + '/docs')
     return response
